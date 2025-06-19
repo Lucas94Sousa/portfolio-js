@@ -22,15 +22,17 @@
 <body>
     <main class="main">
         <header class="header">
-            <img class="photo__perfil" src="assets/images/perfil.png" alt="Perfil">
-            <h1 class="title">Olá, <br>eu sou o Lucas Sousa</h1>
+            <img class="photo__perfil" id="profile.photo" src="assets/images/perfil.png" alt="Perfil">
+            <h1 class="title">Olá, <br> eu sou <span id="profile.name">Carregando...</span></h1>
             <div class="information">
-                <p class="job">Junior Developer</p>
-                <p class="location">Bahia-BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(71)99999-9999">(71)99999-9999</a>
+                    <a href="tel:(71)99999-9999" id="profile.phone">Carregando...</a>
                 </p>
-                <p class="email"><a href="mailto:ex@email.com">ex@email.com</a></p>
+                <p class="email">
+                    <a href="mailto:ex@email.com" id="profile.email">Carregando...</a>
+                </p>
             </div>
         </header>
 
@@ -61,7 +63,7 @@
 
                     <section class="personal">
                         <h3>Habilidades pessoais:</h3>
-                         <ul>
+                         <ul id="profile.skills.softSkills">
                             <li>Facilidade com tarefas práticas</li>
                             <li>Comunicação</li>
                             <li>Trabalho em Equipe</li>
@@ -133,6 +135,8 @@
     </main>
 
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
