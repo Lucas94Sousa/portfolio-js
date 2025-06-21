@@ -31,7 +31,7 @@ a:hover {
 
 .main::before {
     content: '';
-    background-image: url('/assets/images/background_top.svg');
+    background-image: url('../images/background_top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -45,7 +45,7 @@ a:hover {
 
 .main::after {
     content: '';
-    background-image: url('/assets/images/background_top.svg');
+    background-image: url('../images/background_top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -67,7 +67,7 @@ a:hover {
 
 .header::after {
     content: '';
-    background-image: url('/assets/images/icons/header.svg');
+    background-image: url('../images/icons/header.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -117,19 +117,19 @@ a:hover {
 
 
 .information .job::before {
-    background-image: url('/assets/images/icons/job.svg');
+    background-image: url('../images/icons/job.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/images/icons/location.svg');
+    background-image: url('../images/icons/location.svg');
 }
 
 .information .phone::before {
-    background-image: url('/assets/images/icons/phone.svg');
+    background-image: url('../images/icons/phone.svg');
 }
 
 .information .email::before {
-    background-image: url('/assets/images/icons/email.svg');
+    background-image: url('../images/icons/email.svg');
 }
 
 .acordeon {
@@ -178,7 +178,7 @@ a:hover {
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/images/icons/arrow-top.svg');
+    background-image: url('../images/icons/arrow-top.svg');
     transition: .25s;
 }
 
@@ -225,7 +225,7 @@ a:hover {
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/images/icons/check.svg');
+    background-image: url('../images/icons/check.svg');
     margin-right: .5rem;
 }
 
@@ -263,7 +263,7 @@ a:hover {
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/images/icons/github.svg');
+    background-image: url('../images/icons/github.svg');
     margin-right: .5rem;
 }
 
@@ -292,7 +292,7 @@ a:hover {
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/images/icons/calendar.svg');
+    background-image: url('../images/icons/calendar.svg');
     margin-right: .5rem;
 }
 
